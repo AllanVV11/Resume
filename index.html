@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body >
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-conteiner">
+                <a href="#" class="nav__logo">Allan</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>Certificates
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt "></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-conteiner">  
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__conteiner section bd-grid">
+                            <div class="home__data bd-grid">
+                                <h1 class="home__title">Allan <b>Vásquez</b></h1>
+                                <h3 class="home__profession">Computer Engineer</h3>
+                                <p class="home__description">Creative person, who likes to be sociable with the people around him and eager to learn new opportunities for growth.
+                                eager to learn new opportunities for growth.
+                                </p>
+                                
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil"></a>
+                                </div>
+                            </div>
+
+                                
+                        </div>    
+
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                        
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+                    </section>          
+                    
+                    
+                    <!--========== PROFILE ==========-->
+                    <!--<section class="profile section" id="profile">
+                        <h2 class="section-titile">Profile</h2>
+                        <p class="profile__description">Developing web pages with requirements given by the client,
+                        and in turn I collaborated in the development of queries for
+                        a database in Oracle</p>
+                    </section>-->
+
+                    
+
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h3 class="Informacion__titulo">Personal Information</h3>
+
+                        <div class="home__address">
+                            <span class="home__information">
+                                <i class="bx bx-map info__icon"></i>Zaragoza, Palmares, Alajuela
+                            </span>
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope info__icon"></i>allanvv11@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone info__icon"></i>87704655
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-cake info__icon'></i>11-18-1996
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxs-user-badge info__icon'></i>Costarican
+                            </span>
+                        </div>
+                    </section>
+
+                    <section class="education section" id="education">
+                        <h3 class="Informacion__titulo">Languages</h3>
+                        <div class="idiomas__content bd-grid">
+                            <ul class="idioma__data">
+                                <li class="idioma__name">
+                                    <span class="idioma__circle">Spanish: Native</span>
+                                </li>
+                                <li class="idioma__name">
+                                    <span class="idioma__circle">English: Intermediate - advanced</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+                        <div class="social__conteiner bd-grid">
+                            <a href="https://www.linkedin.com/in/allan-v%C3%A1squez-7195a0120?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bw6rGViBgTeaGuHASuv84gA%3D%3D"
+                                target="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i>allan Vásquez
+                            </a>
+                            <a href="https://github.com/AllanVV11" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i></i>https://github.com/AllanVV11
+                            </a>
+                        </div>
+                    </section>
+
+                    
+
+
+                    <!--========== SKILLS  ==========-->
+                    <!--<section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bootstrap
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Oracle
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Mysql
+                                </li>
+                            </ul>
+                        </div>
+                    </section>-->
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+                    
+                        <div class="experience__conteiner bd-grid">
+                            <div class="experience_content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__company">From 2020 to 2021 | Best Resource</span>
+                                    <p class="experience__description">
+                                        The general about year of experience, I specialized as
+                                        programmer in Oracle technologies, as that company is patnert
+                                        and most of their projects are done on Oracle technologies.
+                                    </p>
+                                    <h4 class="experience__subtitle">Web Development</h4>
+                                    <ul class="experience__list">
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> On the web development, we worked a lot with the Oracle framework called Apex.
+                                            On the framework we used technologies such as: Html, Css and JavaScript.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> DDL and DML were performed, such as: prodecies, functions, views, tables, triggers, etc.
+                                            This on a database with Oracle 10g version.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> We worked on the Jaspers reporting tool for the documents required from the
+                                            documents required from clients.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> Experience in dealing with the client, when developing requirements and creating new modules.
+                                            and creation of new modules. Also adjustments or changes required by the end user.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    
+                    </section>
+
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="experience__conteiner bd-grid">
+                            <div class="experience_content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Bachelor's Degree in Computer Engineering</h3>
+                                    <span class="experience__company">From 2017 to 2019| Universidad Castro Carazo</span>
+                                    <h4 class="experience__subtitle">Web Programming & Development</h4>
+                                    <ul class="experience__list">
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> Understanding of programming languages such as: java, c# and JavaScript.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> Systems analysis using visual paradigm tools, creating diagrams such as: Sequence Diagrams, Class Diagrams, Component
+                                            Diagrams and Entity Diagrams.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span> Use of Web technologies such as: Html, Css, Ajax. React.js, Asp.net, Asp.net Core,
+                                            Php, Jquery and Oracle Apex.
+                                        </li>
+                                    </ul>
+                                    <h4 class="experience__subtitle">Databases</h4>
+                                    <ul class="experience__list">
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span>Installation, analysis, modeling and creation of databases in: MySql, Sql Server, Oracle.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span>Use of DDL and DML in the different databases mentioned above.
+                                        </li>
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span>Learning the Oracle database language Pl/Sql.
+                                        </li>
+                                    </ul>
+                                    <h4 class="experience__subtitle">Operating Systems</h4>
+                                    <ul class="experience__list">
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span>Use of the basic linux commands, using the Ubunto distribution.
+                                        </li>
+                                    </ul>
+                                    <h4 class="experience__subtitle">Network</h4>
+                                    <ul class="experience__list">
+                                        <li class="experience__point">
+                                            <span class="experience__circle"></span>Configuration of routers, switches, computers and servers, using the Cisco Packet Tracer tool.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </section>
+
+                
+
+                    <!--========== SOCIAL ==========-->
+                    
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+        
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
